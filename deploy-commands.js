@@ -1,9 +1,13 @@
+//Dependencies
+
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 const { colors } = require('colors');
 require('dotenv').config();
 
+// SlashCommands registration
+// add another line for more commands
 const commands = [
 	new SlashCommandBuilder().setName('web').setDescription('Reply a website link'),
 	new SlashCommandBuilder().setName('info').setDescription('Extra information about us')
