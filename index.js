@@ -28,9 +28,13 @@ client.on('interactionCreate', async interaction => {
 
     if (commandName === 'web') {
 		await interaction.reply('https://paste.here.your.website');
+		console.log(' ')
+		console.log('/Web command executed successfully!'.green)
 	} else if (commandName === 'info') {
 		{
 			await interaction.reply('Extra info message:D!');
+			console.log(' ')
+			console.log('/info command executed successfully!'.green)
 		}
 	}
 });
