@@ -16,7 +16,7 @@ $ npm i
 
 
 
-After installing node, run this commands in the folder that you downloaded:
+After installing nodejs and dependencies, run this commands in the folder that you downloaded:
 
 
 $ node deploy-commands.js
