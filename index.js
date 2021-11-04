@@ -36,6 +36,18 @@ client.on('interactionCreate', async interaction => {
 			console.log(' ')
 			console.log('/info command executed successfully!'.green)
 		}
+	} else if (commandName === 'embed') {
+		{
+		const embed = new MessageEmbed()
+		.setColor('#057a8d')
+		.setTitle('Test Embed')
+		.setDescription('Test description......')
+		.setFooter('Footer','https://i.imgur.com/AfFp7pu.png')
+
+		await interaction.reply({embeds: [embed]})
+		console.log(' ')
+		console.log('/Web command executed successfully!'.green)
+		}
 	}
 });
 
