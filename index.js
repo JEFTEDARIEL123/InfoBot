@@ -15,6 +15,7 @@ client.once('ready', () => {
 	console.log('#######################'.red)
 	console.log('Hey there, It works!'.green);
 	console.log('Basic Bot by !Jeft#8819'.green)
+	console.log('Logged in as '.green + client.user.username .green)
 	console.log('#######################'.red)
 	console.log(' ');
 	console.log('Bot Ready!'.blue)
