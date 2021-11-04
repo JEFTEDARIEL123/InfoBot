@@ -10,7 +10,8 @@ require('dotenv').config();
 // add another line for more commands
 const commands = [
 	new SlashCommandBuilder().setName('web').setDescription('Reply a website link'),
-	new SlashCommandBuilder().setName('info').setDescription('Extra information about us')
+	new SlashCommandBuilder().setName('info').setDescription('Extra information about us'),
+	new SlashCommandBuilder().setName('embed').setDescription('Send a test embed.')
 ]
 	.map(command => command.toJSON());
 
