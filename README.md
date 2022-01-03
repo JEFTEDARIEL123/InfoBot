@@ -16,9 +16,8 @@ $ npm i
 
 
 
-After installing nodejs and dependencies, run this commands in the folder that you downloaded:
+After installing nodejs and dependencies and making a .env file, run this commands in the folder that you downloaded:
 
+$ node deploy-commands.js   (It will register new commands to the server) 
 
-$ node deploy-commands.js
-
-$ node index.js
+$ node index.js   (It start the bot)
